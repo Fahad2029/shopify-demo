@@ -69,4 +69,9 @@ class ProductController extends Controller
              'products'   => $products,
         ]);
     }
+
+     public function new()
+    {
+        
+    }
 }
